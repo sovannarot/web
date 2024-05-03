@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SetAttendance</title>
+  </head>
+  <body>
+    <label>Time</label>
+    <select id="Timeselect">
+      <option value="0">07:00 - 08:00</option>
+      <option value="1">08:00 - 09:00</option>
+      <option value="2">09:00 - 10:00</option>
+      <option value="3">10:00 - 11:00</option>
+      <option value="7">14:00 - 15:00</option>
+      <option value="8">15:00 - 16:00</option>
+      <option value="9">16:00 - 17:00</option>
+    </select>
+    <br />
+    <label>សិស្សឈប់:</label>
+    <br />
+    <label>នន់ សុវណ្ណារ៉ូត</label>
+    <input
+      type="checkbox"
+      value="នន់ សុវណ្ណារ៉ូត"
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>នឹម សម្បត្តិ</label>
+    <input
+      type="checkbox"
+      value="នឹម សម្បត្តិ"
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ផូ សុវណ្ណភូមិ </label>
+    <input
+      type="checkbox"
+      value="ផូ សុវណ្ណភូមិ "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ពិឡាក់ ឡៃហេង </label>
+    <input
+      type="checkbox"
+      value="ពិឡាក់ ឡៃហេង "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ពៅ សុវណ្ណរាជ</label>
+    <input
+      type="checkbox"
+      value="ពៅ សុវណ្ណរាជ"
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ភី សុផារ៉ា</label>
+    <input type="checkbox" value="ភី សុផារ៉ា" class="messageCheckbox" /><select
+      class="status"
+    >
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ភុន មករា </label>
+    <input type="checkbox" value="ភុន មករា " class="messageCheckbox" /><select
+      class="status"
+    >
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ភៀង សុវណ្ណារ៉ា </label>
+    <input
+      type="checkbox"
+      value="ភៀង សុវណ្ណារ៉ា "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ម៉ាក ពេជ្ររចនា </label>
+    <input
+      type="checkbox"
+      value="ម៉ាក ពេជ្ររចនា "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>មាស រត្នមុន្នី </label>
+    <input
+      type="checkbox"
+      value="មាស រត្នមុន្នី "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>រី ម៉ាណែត </label>
+    <input type="checkbox" value="រី ម៉ាណែត " class="messageCheckbox" /><select
+      class="status"
+    >
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>លឹម សុវណ្ណភត្រា </label>
+    <input
+      type="checkbox"
+      value="លឹម សុវណ្ណភត្រា "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>វ៉ាង កក្តដាយុទ្ធ </label>
+    <input
+      type="checkbox"
+      value="វ៉ាង កក្តដាយុទ្ធ "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>វៃ ណារ៉ូត </label>
+    <input type="checkbox" value="វៃ ណារ៉ូត " class="messageCheckbox" /><select
+      class="status"
+    >
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>សុង សុធា </label>
+    <input type="checkbox" value="សុង សុធា " class="messageCheckbox" /><select
+      class="status"
+    >
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>គួន សុធានី </label>
+    <input type="checkbox" value="គួន សុធានី " class="messageCheckbox" /><select
+      class="status"
+    >
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ញ៉េម ណារី </label>
+    <input type="checkbox" value="ញ៉េម ណារី " class="messageCheckbox" /><select
+      class="status"
+    >
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ផន ស្រីផា </label>
+    <input type="checkbox" value="ផន ស្រីផា " class="messageCheckbox" /><select
+      class="status"
+    >
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ផន ស្រីរ័ត្ន </label>
+    <input
+      type="checkbox"
+      value="ផន ស្រីរ័ត្ន "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ផុន ច័ន្នបុរី </label>
+    <input
+      type="checkbox"
+      value="ផុន ច័ន្នបុរី "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ពិណ ចន្នលក្ខិណា </label>
+    <input
+      type="checkbox"
+      value="ពិណ ចន្នលក្ខិណា "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ពុធ សុភី </label>
+    <input type="checkbox" value="ពុធ សុភី " class="messageCheckbox" /><select
+      class="status"
+    >
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ភន សោភា </label>
+    <input type="checkbox" value="ភន សោភា " class="messageCheckbox" /><select
+      class="status"
+    >
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ភន ចឹបវិច្ឆិកា </label>
+    <input
+      type="checkbox"
+      value="ភន ចឹបវិច្ឆិកា "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ភា ស្រីពេជ្រ </label>
+    <input
+      type="checkbox"
+      value="ភា ស្រីពេជ្រ "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ភួង មន្នីរ័ត្ន </label>
+    <input
+      type="checkbox"
+      value="ភួង មន្នីរ័ត្ន "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ភៀង ផនកន្និកា </label>
+    <input
+      type="checkbox"
+      value="ភៀង ផនកន្និកា "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ម៉ន ស្រីនី </label>
+    <input type="checkbox" value="ម៉ន ស្រីនី " class="messageCheckbox" /><select
+      class="status"
+    >
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ម៉ន ផែលាសូឡី </label>
+    <input
+      type="checkbox"
+      value="ម៉ន ផែលាសូឡី "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ម៉ុន ករុណា </label>
+    <input type="checkbox" value="ម៉ុន ករុណា " class="messageCheckbox" /><select
+      class="status"
+    >
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>មុត ស្រីមុត</label>
+    <input type="checkbox" value="មុត ស្រីមុត" class="messageCheckbox" /><select
+      class="status"
+    >
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>មឿន នីសារ </label>
+    <input type="checkbox" value="មឿន នីសារ " class="messageCheckbox" /><select
+      class="status"
+    >
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>យឿន រតនា </label>
+    <input type="checkbox" value="យឿន រតនា " class="messageCheckbox" /><select
+      class="status"
+    >
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>រី ស្រីនីត </label>
+    <input type="checkbox" value="រី ស្រីនីត " class="messageCheckbox" /><select
+      class="status"
+    >
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>រឿន សុនីស្សា </label>
+    <input
+      type="checkbox"
+      value="រឿន សុនីស្សា "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>រឿន ស្រីខេង </label>
+    <input
+      type="checkbox"
+      value="រឿន ស្រីខេង "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>លន ស្រីមួយ </label>
+    <input type="checkbox" value="លន ស្រីមួយ " class="messageCheckbox" /><select
+      class="status"
+    >
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>លន់ ច័ន្នរស្មី </label>
+    <input
+      type="checkbox"
+      value="លន់ ច័ន្នរស្មី "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>វណ្ណៈ សុគន្ធនីស្សា </label>
+    <input
+      type="checkbox"
+      value="វណ្ណៈ សុគន្ធនីស្សា "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ហ៊ន ស្រីស្រស់ </label>
+    <input
+      type="checkbox"
+      value="ហ៊ន ស្រីស្រស់ "
+      class="messageCheckbox"
+    /><select class="status">
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br /><label>ឡេង ស្រីស</label>
+    <input type="checkbox" value="ឡេង ស្រីស" class="messageCheckbox" /><select
+      class="status"
+    >
+      <option>Choose</option>
+      <option value="A">A</option>
+      <option value="P">P</option>
+    </select>
+    <br />
+
+    <button id="submit">Submit</button>
+    <button id="delete">Delete</button>
+    <script src="bundle.js"></script>
+  </body>
+</html>
