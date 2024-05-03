@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <input type="date" min="2024-05-04" id="dateselect" />
+      <select id="select">
+        <option value="">Choose</option>
+        <option value="0">7:00-8:00</option>
+        <option value="1">8:00-9:00</option>
+        <option value="2">9:00-10:00</option>
+        <option value="3">10:00-11:00</option>
+        <option value="7">14:00-15:00</option>
+        <option value="8">15:00-16:00</option>
+        <option value="9">16:00-17:00</option>
+      </select>
+      <button type="submit" id="submit">Submit</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Gender</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="listtable"></tbody>
+    </table>
+    <h2>ត្រូវនឹងម៉ោង <span id="subject"></span></h2>
+    <script src="bundle.js"></script>
+  </body>
+</html>
