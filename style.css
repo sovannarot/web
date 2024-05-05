@@ -36,3 +36,6 @@ table tbody tr {
   align-items: center;
   text-align: center;
 }
+button {
+        padding: 2px;
+}
